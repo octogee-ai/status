@@ -1,31 +1,38 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: octogee-ai
+repo: status
+
+assignees:
+  - ceckert
+
+secrets:
+  - NOTIFICATION_DISCORD_WEBHOOK_URL
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://octogee.com/
+    slug: website
+  - name: App
+    url: https://app.octogee.com/
+    slug: app
+  - name: API
+    url: https://api.octogee.com/api/health
+    slug: api
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+  - name: Workspace connections
+    url: https://api.octogee.com/health
+    slug: workspace-connections
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.octogee.com
+  name: Octogee Status
+  logoUrl: https://octogee.com/ds/assets/octo-mascot.svg
+  favicon: https://octogee.com/favicon.png
+  faviconSvg: https://octogee.com/favicon.svg
+  introTitle: "**Octogee** status"
+  introMessage: Live uptime and response times for Octogee, checked every five minutes. Outages show up here automatically.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Octogee
+      href: https://octogee.com
