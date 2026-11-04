@@ -30,7 +30,14 @@ status-website:
   favicon: https://octogee.com/favicon.png
   faviconSvg: https://octogee.com/favicon.svg
   introTitle: "**Octogee** status"
-  introMessage: Live uptime and response times for Octogee, checked every five minutes. Outages show up here automatically.
+  introMessage: >-
+    Live uptime and response times for Octogee, checked every five minutes. Outages show up here automatically.
+    Octogee also relies on these providers:
+    [Google Cloud](https://status.cloud.google.com/) ·
+    [Google Workspace](https://www.google.com/appsstatus/dashboard/) ·
+    [GitHub](https://www.githubstatus.com/) ·
+    [Anthropic](https://status.claude.com/) ·
+    [OpenAI](https://status.openai.com/)
   navbar:
     - title: Status
       href: /
