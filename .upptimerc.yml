@@ -11,16 +11,20 @@ sites:
   - name: Website
     url: https://octogee.com/
     slug: website
+    icon: https://octogee.com/favicon.png
   - name: App
     url: https://app.octogee.com/
     slug: app
+    icon: https://octogee.com/favicon.png
   - name: API
     url: https://api.octogee.com/api/health
     slug: api
+    icon: https://octogee.com/favicon.png
     __dangerous__body_down_if_text_missing: '"status":"ok"'
   - name: Workspace connections
     url: https://api.octogee.com/health
     slug: workspace-connections
+    icon: https://octogee.com/favicon.png
     __dangerous__body_down_if_text_missing: '"status":"ok"'
 
 status-website:
