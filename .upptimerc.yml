@@ -26,7 +26,7 @@ sites:
 status-website:
   cname: status.octogee.com
   name: Octogee Status
-  themeUrl: /octogee.css
+  themeUrl: //status.octogee.com/octogee.css
   logoUrl: https://octogee.com/ds/assets/octo-mascot.svg
   favicon: https://octogee.com/favicon.png
   faviconSvg: https://octogee.com/favicon.svg
