@@ -46,7 +46,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-body {
+html body {
   font-family: var(--font-sans);
   background:
     radial-gradient(circle at 15% 0%, rgb(231 78 60 / 0.08), transparent 32rem),
@@ -279,4 +279,22 @@ a:hover {
 
 #sapper footer a {
   color: var(--ink-soft);
+}
+
+@media (max-width: 420px) {
+  #sapper nav .logo {
+    font-size: 17px;
+  }
+
+  #sapper nav .logo img {
+    height: 28px;
+  }
+
+  #sapper nav ul {
+    gap: 14px;
+  }
+
+  #sapper nav ul li:last-child a {
+    padding: 8px 14px;
+  }
 }
