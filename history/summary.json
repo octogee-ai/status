@@ -40,19 +40,19 @@
     "url": "https://api.octogee.com/api/health",
     "icon": "https://octogee.com/favicon.png",
     "slug": "api",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 136,
-    "timeDay": 103,
-    "timeWeek": 136,
-    "timeMonth": 136,
-    "timeYear": 136,
+    "status": "up",
+    "uptime": "99.64%",
+    "uptimeDay": "98.07%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
+    "time": 132,
+    "timeDay": 99,
+    "timeWeek": 132,
+    "timeMonth": 132,
+    "timeYear": 132,
     "dailyMinutesDown": {
-      "2026-11-10": 0
+      "2026-11-10": 28
     }
   },
   {
@@ -60,19 +60,19 @@
     "url": "https://api.octogee.com/health",
     "icon": "https://octogee.com/favicon.png",
     "slug": "workspace-connections",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 111,
-    "timeDay": 108,
-    "timeWeek": 111,
-    "timeMonth": 111,
-    "timeYear": 111,
+    "status": "up",
+    "uptime": "99.64%",
+    "uptimeDay": "98.08%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
+    "time": 110,
+    "timeDay": 104,
+    "timeWeek": 110,
+    "timeMonth": 110,
+    "timeYear": 110,
     "dailyMinutesDown": {
-      "2026-11-10": 0
+      "2026-11-10": 28
     }
   }
 ]
