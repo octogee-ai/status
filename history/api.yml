@@ -1,7 +1,7 @@
 url: https://api.octogee.com/api/health
-status: up
-code: 200
-responseTime: 116
-lastUpdated: 2026-11-09T23:04:31.759Z
+status: down
+code: 502
+responseTime: 89
+lastUpdated: 2026-11-10T00:27:49.476Z
 startTime: 2026-11-04T17:19:11.258Z
 generator: Upptime <https://github.com/upptime/upptime>
