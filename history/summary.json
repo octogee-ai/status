@@ -40,19 +40,20 @@
     "url": "https://api.octogee.com/api/health",
     "icon": "https://octogee.com/favicon.png",
     "slug": "api",
-    "status": "down",
-    "uptime": "99.88%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.88%",
-    "uptimeYear": "99.88%",
+    "status": "up",
+    "uptime": "99.84%",
+    "uptimeDay": "99.41%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
     "time": 126,
-    "timeDay": 106,
-    "timeWeek": 123,
+    "timeDay": 116,
+    "timeWeek": 124,
     "timeMonth": 126,
     "timeYear": 126,
     "dailyMinutesDown": {
-      "2026-11-10": 28
+      "2026-11-10": 28,
+      "2026-11-20": 9
     }
   },
   {
